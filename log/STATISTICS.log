@@ -1,0 +1,126 @@
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:ss0 is being started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:ss0 has started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s0 is being started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s0 has started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s1 is being started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s1 has started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s2 is being started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s2 has started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s3 is being started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s3 has started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l0 is being started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l0 has started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l1 is being started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l1 has started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l2 is being started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l2 has started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l3 is being started
+[07-07 04:21:21] p36839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l3 has started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:ss0 is being started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:ss0 has started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s0 is being started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s0 has started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s1 is being started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s1 has started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s2 is being started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s2 has started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s3 is being started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s3 has started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l0 is being started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l0 has started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l1 is being started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l1 has started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l2 is being started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l2 has started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l3 is being started
+[07-07 04:47:28] p49839 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l3 has started
+[07-07 05:02:39] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:ss0 is being started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:ss0 has started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s0 is being started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s0 has started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s1 is being started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s1 has started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s2 is being started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s2 has started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s3 is being started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s3 has started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l0 is being started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l0 has started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l1 is being started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l1 has started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l2 is being started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l2 has started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l3 is being started
+[07-07 05:02:40] p57884 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l3 has started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:ss0 is being started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:ss0 has started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s0 is being started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s0 has started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s1 is being started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s1 has started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s2 is being started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s2 has started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s3 is being started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s3 has started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l0 is being started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l0 has started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l1 is being started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l1 has started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l2 is being started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l2 has started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l3 is being started
+[07-07 05:22:22] p68270 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l3 has started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:ss0 is being started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:ss0 has started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s0 is being started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s0 has started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s1 is being started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s1 has started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s2 is being started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s2 has started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s3 is being started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s3 has started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l0 is being started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l0 has started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l1 is being started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l1 has started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l2 is being started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l2 has started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l3 is being started
+[07-07 05:45:26] p79458 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l3 has started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:ss0 is being started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:ss0 has started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s0 is being started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s0 has started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s1 is being started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s1 has started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s2 is being started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s2 has started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s3 is being started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s3 has started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l0 is being started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l0 has started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l1 is being started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l1 has started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l2 is being started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l2 has started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l3 is being started
+[07-07 05:55:35] p85712 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l3 has started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:ss0 is being started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:ss0 has started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s0 is being started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s0 has started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s1 is being started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s1 has started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s2 is being started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s2 has started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0s3 is being started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0s3 has started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l0 is being started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l0 has started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l1 is being started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l1 has started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l2 is being started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l2 has started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:54} INFO - Stiatisticspuller thread for device: device:p0l3 is being started
+[07-07 06:24:05] p100380 {/home/deba/Desktop/Top-K-Path/P4Runtime/StatisticsPuller.py:56} INFO - Stiatisticspuller thread for device: device:p0l3 has started

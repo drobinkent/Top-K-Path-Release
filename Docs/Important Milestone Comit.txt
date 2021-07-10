@@ -1,0 +1,3 @@
+1) commit d49af5786333ce78ca2f8ed207d544ebff4e78a3 contains a version of good ouput with results -- we will use this commit
+2) commit 08446ba50087dcd1889cb0f72f97ce25595d40d7 --- in this commit we stop after trying to get generic performance improvment. But when we move traffic arrival time from
+uniform to posson issue starts happening.

@@ -1,0 +1,54 @@
+say there are 2 aspect of evaluating p4kp.
+
+a) scalablety if QoS aware paths rule in data plane.
+3 tenants each need 3 flow with 8 pps,
+b)
+
+
+
+---------------------
+we will say we are simutating the change in substrate network though link rate chaning.
+
+
+path migration to periodically re-optimize the utilization of
+the substrate network. We also explore node-mapping algorithms that are customized to common classes of virtualnetwork topologies.-- line to copy
+
+
+
+substrate path capacity allocated to a tenant can be changed due to many reasons including a) change in substrate network b) periodic change in allocation for
+optiization c) sharing the same substrate link with other tenant. modeling all of them sperately is out of scope of this paper.
+Instead we mmodeled the overall impact of these factoes by periodically changing the lnk capacity
+
+
+--------------------
+traffi cdesign to show qos aware path selection capability :
+This also realted to scalablety if QoS aware paths rule in data plane.
+
+ assume 2 tenants each need 3 flow with 8 pps, mapped to 1 link
+ one tenant need 32 pps capacity dedicated speed. so total 2 link
+ and another link 16 pps .
+
+
+
+ Now the controller and talk with hypervisor at startup and communicate the bitmask.
+ the hypervisor will only tag the packets with bitmask for each type of traffic.
+ (show the bitmask for each class in the hypervisor)
+
+ In switch end we need only one tcam entry or just a single hash based entry to seect the p4kp copy for the
+ tenant. Whereas for typical tcam based schemes for same functionality it would rewuire lot more entries.
+ moreover, if at sometime
+
+
+ assume the problem of fig 1c. for traffic class 1 we can set 0-20 and for class 2 we can set 21-40.
+
+ so basically this approach turns into fig 1b which suffers from scalability issue.
+ here we have to show hopw much tcam space it needs and how much savings p4kp can give.
+
+ for a single tenant with N types of QoS based traffic classes it needs sigma N entries .
+ for a generic 64 traffi classes if each entry needs 10 rows in tcam, 640 entries.
+
+
+ so 2 point evaluation
+
+ a) scalable qos aware packet forwarding
+ b) performance improvements

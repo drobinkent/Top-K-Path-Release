@@ -1,0 +1,120 @@
+000100 10 -- 18 decimal all 1 -- latency sensitive short flow
+
+000010 10 -- 10 decimal only 2nd and 3rd bit on -- for high throughput flow. do not interupt two other high prioity flows
+
+000011 10-- 14 decimal all 1 wxcept highest priority  -- query response traffic
+
+
+
+
+
+# Isolation test :
+
+run typical 3 types of flows and with that start a flow of special type with total volume = capacity of one link * duration.
+
+At the end besides the other 3 types of flow, this special flow should get it's wcplicit bandwidth = one link capacity.
+
+ECMP can not give this.
+
+
+
+QoS Pefromance test:
+
+random distribution generation. change the link capacity randdomly.
+
+then say for each tenant link capacity is different. but ecmp can not adopt to thiese things.
+
+so compare hula and p4kp
+
+
+------------------
+We simulated a multi tenant (t tenants) data cne ter environemnet using mininet. In this scenario, each tenant
+consume some portion of a link's bandwidth capacity. Among  the  multiple tenants we focsued on 2 tenants
+we focused on 2 specific tenant's performance in terms of qos performance in this case. The link bandwidth consumption
+of rest of the t-2 tenants were modeled using a normal distriution. here each link's l_f portion was reserved for the rest t-2 tenants
+and 1- l_f portion was used for the 2 tenants in sondiertation.
+
+traffic designa and measurement :
+
+the first tenants runs a real life workload observed in production data center. Where as the 2 nd tenant runs a dedicated
+long term flow
+
+
+
+First we evaluate Can P4KP be used as a data strucuture or api for qos aware routing to other algorithms.
+
+then using simulated multitenant environment we measured how P4KP can be tranlsted into performance and qos gain.
+
+ a real life workload was used
+
+
+ for packet loss and jitter same traffic with udp protocol was used.
+
+
+
+
+
+
+ =======================
+ task:
+ ======================
+
+ convert the traffic generator to json based scheme. use those json scheme for tcp test using iperf.
+ from their we can monitor rtt variation and other stuffs.
+
+
+
+ Assume a VN with 3 types of traffic. The VN operator wants to embeed a graph with 3 links:
+
+ a) .25x  link speed, .5 x link speed .8x of a link speed
+ b) 3 types of traffic we will generate the traffic for each type according to their ratio .
+ c) so our goal is to utilize these 3 links for 3 types of traffic .
+
+ But if the oprtator wants they can deploy any load balancing scheme or etc. they can load balance their total traffic over the links.
+
+ we have to actually show the tcam resource usage. if necessary need to implement a discrete calculator for differnt numbers of tenants
+
+
+
+50 --  84
+50 --  87.291891
+256 --  17
+256 --  266.390373
+2048 --  7
+2048 --  737.199002
+3200 --  0
+Average FCT  =  672.1937494197111
+Algorithms Nanme : ECMP
+50 --  84
+50 --  46.510327
+256 --  17
+256 --  317.253073
+2048 --  7
+2048 --  675.449037
+3200 --  0
+Average FCT  =  623.1359094367034
+
+
+------
+go back to variable linkspeed
+
+we will compare, hula, ecmp, p4kp and range tcam.
+
+then we will say ecmp can not cope with link variation hence not usable for qos aware schemes
+
+then we will go for hula and ecmp range.
+
+-------------------------
+we have tio say qos is mainly imp[lemenyed in data center through overtlay networking. we evaluated p4kp in such a settings.
+
+
+
+
+
+---- we have to implement the range tcam based version
+---- hula
+----
+
+
+-------------------
+data center link failure charcteristics

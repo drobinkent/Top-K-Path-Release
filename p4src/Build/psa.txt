@@ -1,0 +1,968 @@
+pkg_info {
+  arch: "v1model"
+}
+tables {
+  preamble {
+    id: 39818921
+    name: "IngressPipeImpl.debug_std_meta_ingress_start.dbg_table"
+    alias: "debug_std_meta_ingress_start.dbg_table"
+  }
+  match_fields {
+    id: 1
+    name: "standard_metadata.ingress_port"
+    bitwidth: 9
+    match_type: EXACT
+  }
+  match_fields {
+    id: 2
+    name: "standard_metadata.egress_spec"
+    bitwidth: 9
+    match_type: EXACT
+  }
+  match_fields {
+    id: 3
+    name: "standard_metadata.egress_port"
+    bitwidth: 9
+    match_type: EXACT
+  }
+  match_fields {
+    id: 4
+    name: "standard_metadata.packet_length"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 5
+    name: "standard_metadata.enq_timestamp"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 6
+    name: "standard_metadata.enq_qdepth"
+    bitwidth: 19
+    match_type: EXACT
+  }
+  match_fields {
+    id: 7
+    name: "standard_metadata.deq_timedelta"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 8
+    name: "standard_metadata.deq_qdepth"
+    bitwidth: 19
+    match_type: EXACT
+  }
+  match_fields {
+    id: 9
+    name: "standard_metadata.ingress_global_timestamp"
+    bitwidth: 48
+    match_type: EXACT
+  }
+  match_fields {
+    id: 10
+    name: "standard_metadata.egress_global_timestamp"
+    bitwidth: 48
+    match_type: EXACT
+  }
+  match_fields {
+    id: 11
+    name: "local_metadata.rank_of_path_to_be_searched"
+    bitwidth: 8
+    match_type: EXACT
+  }
+  match_fields {
+    id: 12
+    name: "hdr.icmpv6.type"
+    bitwidth: 8
+    match_type: EXACT
+  }
+  match_fields {
+    id: 13
+    name: "hdr.ipv6.next_hdr"
+    bitwidth: 8
+    match_type: EXACT
+  }
+  match_fields {
+    id: 14
+    name: "hdr.ipv6.flow_label"
+    bitwidth: 20
+    match_type: EXACT
+  }
+  match_fields {
+    id: 15
+    name: "hdr.ipv6.traffic_class"
+    bitwidth: 6
+    match_type: EXACT
+  }
+  match_fields {
+    id: 16
+    name: "hdr.tcp.src_port"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  match_fields {
+    id: 17
+    name: "hdr.tcp.dst_port"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  match_fields {
+    id: 18
+    name: "hdr.tcp.seq_no"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 19
+    name: "hdr.tcp.ack_no"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 20
+    name: "hdr.tcp.data_offset"
+    bitwidth: 4
+    match_type: EXACT
+  }
+  match_fields {
+    id: 21
+    name: "hdr.tcp.res"
+    bitwidth: 3
+    match_type: EXACT
+  }
+  match_fields {
+    id: 22
+    name: "hdr.tcp.ecn"
+    bitwidth: 3
+    match_type: EXACT
+  }
+  match_fields {
+    id: 23
+    name: "hdr.tcp.urg_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 24
+    name: "hdr.tcp.ack_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 25
+    name: "hdr.tcp.psh_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 26
+    name: "hdr.tcp.rst_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 27
+    name: "hdr.tcp.syn_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 28
+    name: "hdr.tcp.fin_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 29
+    name: "hdr.tcp.window"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  match_fields {
+    id: 30
+    name: "hdr.tcp.checksum"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  match_fields {
+    id: 31
+    name: "hdr.tcp.urgent_ptr"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  action_refs {
+    id: 21257015
+  }
+  const_default_action_id: 21257015
+  size: 1024
+}
+tables {
+  preamble {
+    id: 39116106
+    name: "IngressPipeImpl.ingress_end_debug.dbg_table"
+    alias: "ingress_end_debug.dbg_table"
+  }
+  match_fields {
+    id: 1
+    name: "standard_metadata.ingress_port"
+    bitwidth: 9
+    match_type: EXACT
+  }
+  match_fields {
+    id: 2
+    name: "standard_metadata.egress_spec"
+    bitwidth: 9
+    match_type: EXACT
+  }
+  match_fields {
+    id: 3
+    name: "standard_metadata.egress_port"
+    bitwidth: 9
+    match_type: EXACT
+  }
+  match_fields {
+    id: 4
+    name: "standard_metadata.packet_length"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 5
+    name: "standard_metadata.enq_timestamp"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 6
+    name: "standard_metadata.enq_qdepth"
+    bitwidth: 19
+    match_type: EXACT
+  }
+  match_fields {
+    id: 7
+    name: "standard_metadata.deq_timedelta"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 8
+    name: "standard_metadata.deq_qdepth"
+    bitwidth: 19
+    match_type: EXACT
+  }
+  match_fields {
+    id: 9
+    name: "standard_metadata.ingress_global_timestamp"
+    bitwidth: 48
+    match_type: EXACT
+  }
+  match_fields {
+    id: 10
+    name: "standard_metadata.egress_global_timestamp"
+    bitwidth: 48
+    match_type: EXACT
+  }
+  match_fields {
+    id: 11
+    name: "local_metadata.rank_of_path_to_be_searched"
+    bitwidth: 8
+    match_type: EXACT
+  }
+  match_fields {
+    id: 12
+    name: "hdr.icmpv6.type"
+    bitwidth: 8
+    match_type: EXACT
+  }
+  match_fields {
+    id: 13
+    name: "hdr.ipv6.next_hdr"
+    bitwidth: 8
+    match_type: EXACT
+  }
+  match_fields {
+    id: 14
+    name: "hdr.ipv6.flow_label"
+    bitwidth: 20
+    match_type: EXACT
+  }
+  match_fields {
+    id: 15
+    name: "hdr.ipv6.traffic_class"
+    bitwidth: 6
+    match_type: EXACT
+  }
+  match_fields {
+    id: 16
+    name: "hdr.tcp.src_port"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  match_fields {
+    id: 17
+    name: "hdr.tcp.dst_port"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  match_fields {
+    id: 18
+    name: "hdr.tcp.seq_no"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 19
+    name: "hdr.tcp.ack_no"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 20
+    name: "hdr.tcp.data_offset"
+    bitwidth: 4
+    match_type: EXACT
+  }
+  match_fields {
+    id: 21
+    name: "hdr.tcp.res"
+    bitwidth: 3
+    match_type: EXACT
+  }
+  match_fields {
+    id: 22
+    name: "hdr.tcp.ecn"
+    bitwidth: 3
+    match_type: EXACT
+  }
+  match_fields {
+    id: 23
+    name: "hdr.tcp.urg_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 24
+    name: "hdr.tcp.ack_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 25
+    name: "hdr.tcp.psh_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 26
+    name: "hdr.tcp.rst_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 27
+    name: "hdr.tcp.syn_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 28
+    name: "hdr.tcp.fin_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 29
+    name: "hdr.tcp.window"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  match_fields {
+    id: 30
+    name: "hdr.tcp.checksum"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  match_fields {
+    id: 31
+    name: "hdr.tcp.urgent_ptr"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  action_refs {
+    id: 21257015
+  }
+  const_default_action_id: 21257015
+  size: 1024
+}
+tables {
+  preamble {
+    id: 47631553
+    name: "IngressPipeImpl.downstream_routing_control_clock.downstream_routing_table"
+    alias: "downstream_routing_control_clock.downstream_routing_table"
+  }
+  match_fields {
+    id: 1
+    name: "hdr.ipv6.dst_addr"
+    bitwidth: 128
+    match_type: EXACT
+  }
+  action_refs {
+    id: 29606966
+  }
+  action_refs {
+    id: 21257015
+    annotations: "@defaultonly"
+    scope: DEFAULT_ONLY
+  }
+  direct_resource_ids: 330338703
+  size: 1024
+}
+tables {
+  preamble {
+    id: 44944015
+    name: "IngressPipeImpl.l2_ternary_processing_control_block.l2_ternary_table"
+    alias: "l2_ternary_table"
+  }
+  match_fields {
+    id: 1
+    name: "hdr.ethernet.dst_addr"
+    bitwidth: 48
+    match_type: TERNARY
+  }
+  action_refs {
+    id: 18898123
+  }
+  action_refs {
+    id: 25252251
+    annotations: "@defaultonly"
+    scope: DEFAULT_ONLY
+  }
+  const_default_action_id: 25252251
+  direct_resource_ids: 319227349
+  size: 1024
+}
+tables {
+  preamble {
+    id: 48740895
+    name: "IngressPipeImpl.my_station_processing_control_block.my_station_table"
+    alias: "my_station_table"
+  }
+  match_fields {
+    id: 1
+    name: "hdr.ethernet.dst_addr"
+    bitwidth: 48
+    match_type: EXACT
+  }
+  action_refs {
+    id: 21257015
+  }
+  direct_resource_ids: 326932607
+  size: 1024
+}
+tables {
+  preamble {
+    id: 44899682
+    name: "IngressPipeImpl.ndp_processing_control_block.ndp_reply_table"
+    alias: "ndp_reply_table"
+  }
+  match_fields {
+    id: 1
+    name: "hdr.ipv6.src_addr"
+    bitwidth: 128
+    match_type: EXACT
+  }
+  action_refs {
+    id: 17085122
+  }
+  action_refs {
+    id: 21257015
+    annotations: "@defaultonly"
+    scope: DEFAULT_ONLY
+  }
+  direct_resource_ids: 321323137
+  size: 1024
+}
+tables {
+  preamble {
+    id: 41303458
+    name: "IngressPipeImpl.k_path_selector_control_block.best_path_finder_mat"
+    alias: "best_path_finder_mat"
+  }
+  match_fields {
+    id: 1
+    name: "local_metadata.best_path_selector_bitmask"
+    bitwidth: 16
+    match_type: TERNARY
+  }
+  action_refs {
+    id: 19456785
+  }
+  action_refs {
+    id: 33074583
+  }
+  size: 1024
+}
+tables {
+  preamble {
+    id: 39819042
+    name: "EgressPipeImpl.debug_std_meta_egress_start.dbg_table"
+    alias: "debug_std_meta_egress_start.dbg_table"
+  }
+  match_fields {
+    id: 1
+    name: "standard_metadata.ingress_port"
+    bitwidth: 9
+    match_type: EXACT
+  }
+  match_fields {
+    id: 2
+    name: "standard_metadata.egress_spec"
+    bitwidth: 9
+    match_type: EXACT
+  }
+  match_fields {
+    id: 3
+    name: "standard_metadata.egress_port"
+    bitwidth: 9
+    match_type: EXACT
+  }
+  match_fields {
+    id: 4
+    name: "standard_metadata.packet_length"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 5
+    name: "standard_metadata.enq_timestamp"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 6
+    name: "standard_metadata.enq_qdepth"
+    bitwidth: 19
+    match_type: EXACT
+  }
+  match_fields {
+    id: 7
+    name: "standard_metadata.deq_timedelta"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 8
+    name: "standard_metadata.deq_qdepth"
+    bitwidth: 19
+    match_type: EXACT
+  }
+  match_fields {
+    id: 9
+    name: "standard_metadata.ingress_global_timestamp"
+    bitwidth: 48
+    match_type: EXACT
+  }
+  match_fields {
+    id: 10
+    name: "standard_metadata.egress_global_timestamp"
+    bitwidth: 48
+    match_type: EXACT
+  }
+  match_fields {
+    id: 11
+    name: "local_metadata.rank_of_path_to_be_searched"
+    bitwidth: 8
+    match_type: EXACT
+  }
+  match_fields {
+    id: 12
+    name: "hdr.icmpv6.type"
+    bitwidth: 8
+    match_type: EXACT
+  }
+  match_fields {
+    id: 13
+    name: "hdr.ipv6.next_hdr"
+    bitwidth: 8
+    match_type: EXACT
+  }
+  match_fields {
+    id: 14
+    name: "hdr.ipv6.flow_label"
+    bitwidth: 20
+    match_type: EXACT
+  }
+  match_fields {
+    id: 15
+    name: "hdr.ipv6.traffic_class"
+    bitwidth: 6
+    match_type: EXACT
+  }
+  match_fields {
+    id: 16
+    name: "hdr.tcp.src_port"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  match_fields {
+    id: 17
+    name: "hdr.tcp.dst_port"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  match_fields {
+    id: 18
+    name: "hdr.tcp.seq_no"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 19
+    name: "hdr.tcp.ack_no"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  match_fields {
+    id: 20
+    name: "hdr.tcp.data_offset"
+    bitwidth: 4
+    match_type: EXACT
+  }
+  match_fields {
+    id: 21
+    name: "hdr.tcp.res"
+    bitwidth: 3
+    match_type: EXACT
+  }
+  match_fields {
+    id: 22
+    name: "hdr.tcp.ecn"
+    bitwidth: 3
+    match_type: EXACT
+  }
+  match_fields {
+    id: 23
+    name: "hdr.tcp.urg_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 24
+    name: "hdr.tcp.ack_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 25
+    name: "hdr.tcp.psh_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 26
+    name: "hdr.tcp.rst_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 27
+    name: "hdr.tcp.syn_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 28
+    name: "hdr.tcp.fin_control_flag"
+    bitwidth: 1
+    match_type: EXACT
+  }
+  match_fields {
+    id: 29
+    name: "hdr.tcp.window"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  match_fields {
+    id: 30
+    name: "hdr.tcp.checksum"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  match_fields {
+    id: 31
+    name: "hdr.tcp.urgent_ptr"
+    bitwidth: 16
+    match_type: EXACT
+  }
+  action_refs {
+    id: 21257015
+  }
+  const_default_action_id: 21257015
+  size: 1024
+}
+actions {
+  preamble {
+    id: 21257015
+    name: "NoAction"
+    alias: "NoAction"
+    annotations: "@noWarn(\"unused\")"
+  }
+}
+actions {
+  preamble {
+    id: 29606966
+    name: "IngressPipeImpl.downstream_routing_control_clock.set_downstream_egress_port"
+    alias: "set_downstream_egress_port"
+  }
+  params {
+    id: 1
+    name: "port_num"
+    bitwidth: 9
+  }
+  params {
+    id: 2
+    name: "dmac"
+    bitwidth: 48
+  }
+}
+actions {
+  preamble {
+    id: 25252251
+    name: "IngressPipeImpl.l2_ternary_processing_control_block.drop"
+    alias: "drop"
+  }
+}
+actions {
+  preamble {
+    id: 18898123
+    name: "IngressPipeImpl.l2_ternary_processing_control_block.set_multicast_group"
+    alias: "set_multicast_group"
+  }
+  params {
+    id: 1
+    name: "gid"
+    bitwidth: 16
+  }
+}
+actions {
+  preamble {
+    id: 17085122
+    name: "IngressPipeImpl.ndp_processing_control_block.ndp_ns_to_na"
+    alias: "ndp_ns_to_na"
+  }
+  params {
+    id: 1
+    name: "target_mac"
+    bitwidth: 48
+  }
+}
+actions {
+  preamble {
+    id: 19456785
+    name: "IngressPipeImpl.k_path_selector_control_block.best_path_finder_action_without_param"
+    alias: "best_path_finder_action_without_param"
+  }
+}
+actions {
+  preamble {
+    id: 33074583
+    name: "IngressPipeImpl.k_path_selector_control_block.best_path_finder_action_with_param"
+    alias: "best_path_finder_action_with_param"
+  }
+  params {
+    id: 1
+    name: "rank"
+    bitwidth: 16
+  }
+}
+counters {
+  preamble {
+    id: 312468779
+    name: "egressPortCounter"
+    alias: "egressPortCounter"
+  }
+  spec {
+    unit: PACKETS
+  }
+  size: 256
+}
+direct_counters {
+  preamble {
+    id: 330338703
+    name: "downstream_routing_table"
+    alias: "downstream_routing_table"
+  }
+  spec {
+    unit: BOTH
+  }
+  direct_table_id: 47631553
+}
+direct_counters {
+  preamble {
+    id: 319227349
+    name: "l2_ternary_table_counter"
+    alias: "l2_ternary_table_counter"
+  }
+  spec {
+    unit: BOTH
+  }
+  direct_table_id: 44944015
+}
+direct_counters {
+  preamble {
+    id: 326932607
+    name: "my_station_table_counter"
+    alias: "my_station_table_counter"
+  }
+  spec {
+    unit: BOTH
+  }
+  direct_table_id: 48740895
+}
+direct_counters {
+  preamble {
+    id: 321323137
+    name: "ndp_reply_table_counter"
+    alias: "ndp_reply_table_counter"
+  }
+  spec {
+    unit: BOTH
+  }
+  direct_table_id: 44899682
+}
+controller_packet_metadata {
+  preamble {
+    id: 80671331
+    name: "packet_in"
+    alias: "packet_in"
+    annotations: "@controller_header(\"packet_in\")"
+  }
+  metadata {
+    id: 1
+    name: "ingress_port"
+    bitwidth: 9
+  }
+  metadata {
+    id: 2
+    name: "_pad"
+    bitwidth: 7
+  }
+}
+controller_packet_metadata {
+  preamble {
+    id: 75327753
+    name: "packet_out"
+    alias: "packet_out"
+    annotations: "@controller_header(\"packet_out\")"
+  }
+  metadata {
+    id: 1
+    name: "egress_port"
+    bitwidth: 9
+  }
+  metadata {
+    id: 2
+    name: "_pad"
+    bitwidth: 7
+  }
+  metadata {
+    id: 3
+    name: "top_k_path_flags"
+    bitwidth: 8
+  }
+  metadata {
+    id: 4
+    name: "bitmask"
+    bitwidth: 32
+  }
+  metadata {
+    id: 5
+    name: "rank"
+    bitwidth: 32
+  }
+  metadata {
+    id: 6
+    name: "port"
+    bitwidth: 32
+  }
+  metadata {
+    id: 7
+    name: "rank_max_index"
+    bitwidth: 32
+  }
+  metadata {
+    id: 8
+    name: "rank_min_index"
+    bitwidth: 32
+  }
+  metadata {
+    id: 9
+    name: "new_port_index"
+    bitwidth: 32
+  }
+}
+registers {
+  preamble {
+    id: 372704615
+    name: "stored_bitmask"
+    alias: "stored_bitmask"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 16
+      }
+    }
+  }
+  size: 1
+}
+registers {
+  preamble {
+    id: 377218411
+    name: "rank_to_max_index"
+    alias: "rank_to_max_index"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 32
+      }
+    }
+  }
+  size: 16
+}
+registers {
+  preamble {
+    id: 380646284
+    name: "rank_to_min_index"
+    alias: "rank_to_min_index"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 32
+      }
+    }
+  }
+  size: 16
+}
+registers {
+  preamble {
+    id: 382265012
+    name: "rank_to_port_map"
+    alias: "rank_to_port_map"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 9
+      }
+    }
+  }
+  size: 256
+}
+type_info {
+}
